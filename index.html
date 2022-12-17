@@ -1,191 +1,643 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<link rel="stylesheet" href="./styles/index.css" />
-		<link rel="preconnect" href="https://fonts.googleapis.com" />
-		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-		<link
-			href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600&display=swap"
-			rel="stylesheet"
-		/>
-		<script
-			src="https://kit.fontawesome.com/5669f92d5b.js"
-			crossorigin="anonymous"
-		></script>
-		<title>Riksha</title>
-	</head>
 
-	<body>
-		<header class="header">
-			<section>
-				<div class="container">
-					<div class="header__top">
-						<div class="header__logo">
-							<img src="./assets/logo.png" alt="logo" />
-						</div>
-						<div class="header__navigation">
-							<nav>
-								<ul>
-									<li><a href="">О нас</a></li>
-									<li><a href="">Доставка</a></li>
-									<li><a href="">Контакты</a></li>
-									<li><a href="">Бонусы</a></li>
-									<li><a href="">Вакансии</a></li>
-								</ul>
-							</nav>
-						</div>
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="stylesheet" href="./styles/index.css" />
+	<link rel="preconnect" href="https://fonts.googleapis.com" />
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+	<link
+		href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600&display=swap"
+		rel="stylesheet" />
+	<script src="https://kit.fontawesome.com/5669f92d5b.js" crossorigin="anonymous"></script>
+	<title>Riksha</title>
+</head>
 
-						<div class="header__contacts">
-							<div class="contacts__number">
-								<i class="fa-solid fa-phone"></i>
-								<span>+7 (495) 617-14-24</span>
-							</div>
-							<div class="contacts__time">
-								<span>c 10:00 до 23:00</span>
-							</div>
-						</div>
+<body>
+	<header class="header">
+		<section>
+			<div class="container">
+				<div class="header__top">
+					<div class="header__logo">
+						<img src="./assets/logo.png" alt="logo" />
+					</div>
+					<div class="header__navigation">
+						<nav>
+							<ul>
+								<li><a href="">О нас</a></li>
+								<li><a href="">Доставка</a></li>
+								<li><a href="">Контакты</a></li>
+								<li><a href="">Бонусы</a></li>
+								<li><a href="">Вакансии</a></li>
+							</ul>
+						</nav>
+					</div>
 
-						<div class="header__cart_profile">
-							<div class="header__cart">
-								<span class="cart__balance">0 ₽</span>
-								<i class="fa-sharp fa-solid fa-bag-shopping"></i>
-							</div>
-							<div class="header__profile">
-								<button>
-									<i class="fa-solid fa-user"></i>
-								</button>
-							</div>
+					<div class="header__contacts">
+						<div class="contacts__number">
+							<i class="fa-solid fa-phone"></i>
+							<span>+7 (495) 617-14-24</span>
+						</div>
+						<div class="contacts__time">
+							<span>c 10:00 до 23:00</span>
+						</div>
+					</div>
+
+					<div class="header__cart_profile">
+						<div class="header__cart">
+							<span class="cart__balance">0 ₽</span>
+							<i class="fa-sharp fa-solid fa-bag-shopping"></i>
+						</div>
+						<div class="header__profile">
+							<button>
+								<i class="fa-solid fa-user"></i>
+							</button>
 						</div>
 					</div>
 				</div>
-				<div class="header__bottom">
-					<div class="header__container">
-						<ul>
-							<li>
-								<img src="./assets/pizza.png" alt="icon" />
-								<span>Пицца</span>
-							</li>
-							<li>
-								<img src="./assets/sushi.png" alt="icon" />
-								<span>Sushi</span>
-							</li>
-							<li>
-								<img src="./assets/rolle.png" alt="icon" />
-								<span>Роллы</span>
-							</li>
-							<li>
-								<img src="./assets/set.png" alt="icon" />
-								<span>Сеты</span>
-							</li>
-							<li>
-								<img src="./assets/wok.png" alt="icon" />
-								<span>Wok</span>
-							</li>
-							<li>
-								<img src="./assets/soup.png" alt="icon" />
-								<span>Супы</span>
-							</li>
-							<li>
-								<img src="./assets/salads.png" alt="icon" />
-								<span>Салат</span>
-							</li>
-							<li>
-								<img src="./assets/dessert.png" alt="icon" />
-								<span>Дессерты</span>
-							</li>
-							<li>
-								<img src="./assets/beverages.png" alt="icon" />
-								<span>Напитки</span>
-							</li>
-							<li>
-								<img src="./assets/sale.png" alt="icon" />
-								<span>Акции</span>
-							</li>
-						</ul>
-					</div>
-				</div>
-			</section>
-
-			<section class="banner__slider">
-				<button class="left__arrow">
-					<span>left</span>
-				</button>
-				<div class="slider__list__parent">
-					<ul class="slider__list">
-						<li>
-							<img
-								src="https://wallpaperaccess.com/full/945950.jpg"
-								alt="banner"
-							/>
-						</li>
-						<li>
-							<img
-								src="https://wallpaperaccess.com/full/2379729.jpg"
-								alt="banner"
-							/>
-						</li>
-						<li>
-							<img
-								src="https://img5.goodfon.ru/wallpaper/nbig/3/9c/space-planet-landscape-wallpapers-1920-x-1080.jpg"
-								alt="banner"
-							/>
-						</li>
-						<li>
-							<img
-								src="https://wallpaperset.com/w/full/0/c/a/484258.jpg"
-								alt="banner"
-							/>
-						</li>
-					</ul>
-					<div class="detail__button">
-						<span>Details</span>
-					</div>
-				</div>
-				<button class="right__arrow">
-					<span>right</span>
-				</button>
-			</section>
-		</header>
-		<!-- <div class="main_fol"></div> -->
-
-		<main>
-			<section class="advantages">
-				<ul class="adnavtages__list">
-					<div class="block_part_2">
-						<div class="title_2"></div>
-						<div class="icon_2"></div>
-						<div class="info_2"></div>
-					</div>
-					<div class="block_part_2">
-						<div class="title_2"></div>
-						<div class="icon_2"></div>
-						<div class="info_2"></div>
-					</div>
-					<div class="block_part_2">
-						<div class="title_2"></div>
-						<div class="icon_2"></div>
-						<div class="info_2"></div>
-					</div>
-					<div class="block_part_2">
-						<div class="title_2"></div>
-						<div class="icon_2"></div>
-						<div class="info_2"></div>
-					</div>
-				</ul>
-			</section>
-
-			<section class="categories">
-				<div class="categories__list">
+			</div>
+			<div class="header__bottom">
+				<div class="header__container">
 					<ul>
+						<li>
+							<img src="./assets/pizza.png" alt="icon" />
+							<span>Пицца</span>
+						</li>
+						<li>
+							<img src="./assets/sushi.png" alt="icon" />
+							<span>Sushi</span>
+						</li>
+						<li>
+							<img src="./assets/rolle.png" alt="icon" />
+							<span>Роллы</span>
+						</li>
+						<li>
+							<img src="./assets/set.png" alt="icon" />
+							<span>Сеты</span>
+						</li>
+						<li>
+							<img src="./assets/wok.png" alt="icon" />
+							<span>Wok</span>
+						</li>
+						<li>
+							<img src="./assets/soup.png" alt="icon" />
+							<span>Супы</span>
+						</li>
+						<li>
+							<img src="./assets/salads.png" alt="icon" />
+							<span>Салат</span>
+						</li>
+						<li>
+							<img src="./assets/dessert.png" alt="icon" />
+							<span>Дессерты</span>
+						</li>
+						<li>
+							<img src="./assets/beverages.png" alt="icon" />
+							<span>Напитки</span>
+						</li>
+						<li>
+							<img src="./assets/sale.png" alt="icon" />
+							<span>Акции</span>
+						</li>
 					</ul>
 				</div>
-			</section>
-		</main>
+			</div>
+		</section>
 
-		<footer></footer>
-		<script src="./js/index.js"></script>
-	</body>
+		<section class="banner__slider">
+			<button class="left__arrow">
+				<span>left</span>
+			</button>
+			<div class="slider__list__parent">
+				<ul class="slider__list">
+					<li>
+						<img src="https://wallpaperaccess.com/full/945950.jpg" alt="banner" />
+					</li>
+					<li>
+						<img src="https://wallpaperaccess.com/full/2379729.jpg" alt="banner" />
+					</li>
+					<li>
+						<img src="https://img5.goodfon.ru/wallpaper/nbig/3/9c/space-planet-landscape-wallpapers-1920-x-1080.jpg"
+							alt="banner" />
+					</li>
+					<li>
+						<img src="https://wallpaperset.com/w/full/0/c/a/484258.jpg" alt="banner" />
+					</li>
+				</ul>
+				<div class="detail__button">
+					<span>Details</span>
+				</div>
+			</div>
+			<button class="right__arrow">
+				<span>right</span>
+			</button>
+		</section>
+	</header>
+	<!-- <div class="main_fol"></div> -->
+
+	<main>
+
+
+		<section class="advantages">
+			<ul class="adnavtages__list">
+				<div class="block_part_2">
+					<div class="title_2"> <img src="./assets/1.png" alt="">
+						<div class="icon_2"> <img src="./assets/1_2.png" alt=""></div>
+						<h3>доставка</h3>
+						<p>при заказе от 600 ₽ </p>
+					</div>
+
+
+				</div>
+				<div class="block_part_2">
+					<div class="title_2"> <img src="./assets/2.png" alt="">
+						<div class="icon_2"> <img src="./assets/2_2.png" alt=""></div>
+						<h3>за 60 мин</h3>
+						<p>или проморол за опоздание</p>
+					</div>
+
+
+				</div>
+				<div class="block_part_2">
+					<div class="title_2"> <img src="./assets/3.png" alt="">
+						<div class="icon_2"> <img src="./assets/3_2.png" alt=""></div>
+						<h3>бонусы</h3>
+						<p>бонусная система 1 ₽ = 1 бонус</p>
+					</div>
+
+
+				</div>
+				<div class="block_part_2">
+					<div class="title_2"> <img src="./assets/4.png" alt="">
+						<div class="icon_2"> <img src="./assets/4_4.png" alt=""></div>
+						<h3>продукты</h3>
+						<p>Никаких заготовок!</p>
+					</div>
+
+
+				</div>
+			</ul>
+		</section>
+		<!-- <div class="info_2"><img src="./assets/btn.png" alt=""><i class="fa-solid fa-up-long"></i> <p>наверх</p></div> -->
+		<section class="top_part">
+
+			<li class="cart__top">
+				<img src="./assets/ill roll 1.png" alt="" class="roll">
+				<p>Топ позиции</p>
+				<h5>Новинки</h5>
+			</li>
+			<ul class="top_part3">
+
+				<li class="part_top_1">
+					<div class="lict_top"></div>
+					<div class="col__one"></div>
+					<div class="title__top_1">
+						<p>200 грамм * 130 Ккал</p>
+						<h3>Ролл "Филадельфия"</h3>
+						<h4>Лосось, сыр "Филадельфия", огурец, авокадо </h4>
+					</div>
+
+					<div class="juct_part">
+						<div class="price__1">
+							<p>269 ₽</p>
+							<p class="price__1_1">219 ₽ </p>
+						</div>
+						<a href="#">
+							<div class="button_price"></div>
+						</a>
+					</div>
+				</li>
+				<li class="part_top_1">
+					<div class="lict_top"></div>
+					<div class="col__one"></div>
+					<div class="title__top_1">
+						<p>200 грамм * 130 Ккал</p>
+						<h3>Ролл "Филадельфия"</h3>
+						<h4>Лосось, сыр "Филадельфия", огурец, авокадо </h4>
+					</div>
+
+					<div class="juct_part">
+						<div class="price__1">
+							<p>269 ₽</p>
+							<p class="price__1_1">219 ₽ </p>
+						</div>
+						<a href="#">
+							<div class="button_price"></div>
+						</a>
+					</div>
+				</li>
+				<li class="part_top_1">
+					<div class="lict_top"></div>
+					<div class="col__one"></div>
+					<div class="title__top_1">
+						<p>200 грамм * 130 Ккал</p>
+						<h3>Ролл "Филадельфия"</h3>
+						<h4>Лосось, сыр "Филадельфия", огурец, авокадо </h4>
+					</div>
+
+					<div class="juct_part">
+						<div class="price__1">
+							<p>269 ₽</p>
+							<p class="price__1_1">219 ₽ </p>
+						</div>
+						<a href="#">
+							<div class="button_price"></div>
+						</a>
+					</div>
+				</li>
+
+
+			</ul>
+
+		</section>
+		<div class="conteyner__advantages">
+
+
+			<li class="cart__top">
+
+				<p>Комбо меню</p><img src="./assets/iil roll 2.png" alt="" class="roll1">
+			</li>
+			<ul class="top_part4">
+
+				<li class="part_top_1">
+					<div class="lict_top"></div>
+					<div class="col__one"></div>
+					<div class="title__top_1">
+						<p>200 грамм * 130 Ккал</p>
+						<h3>Ролл "Филадельфия"</h3>
+						<h4>Лосось, сыр "Филадельфия", огурец, авокадо </h4>
+					</div>
+
+					<div class="juct_part">
+						<div class="price__1">
+							<p>269 ₽</p>
+							<p class="price__1_1">219 ₽ </p>
+						</div>
+						<a href="#">
+							<div class="button_price"></div>
+						</a>
+					</div>
+				</li>
+				<li class="part_top_1">
+					<div class="lict_top"></div>
+					<div class="col__one"></div>
+					<div class="title__top_1">
+						<p>200 грамм * 130 Ккал</p>
+						<h3>Ролл "Филадельфия"</h3>
+						<h4>Лосось, сыр "Филадельфия", огурец, авокадо </h4>
+					</div>
+
+					<div class="juct_part">
+						<div class="price__1">
+							<p>269 ₽</p>
+							<p class="price__1_1">219 ₽ </p>
+						</div>
+						<a href="#">
+							<div class="button_price"></div>
+						</a>
+					</div>
+				</li>
+				<li class="part_top_1">
+					<div class="lict_top"></div>
+					<div class="col__one"></div>
+					<div class="title__top_1">
+						<p>200 грамм * 130 Ккал</p>
+						<h3>Ролл "Филадельфия"</h3>
+						<h4>Лосось, сыр "Филадельфия", огурец, авокадо </h4>
+					</div>
+
+					<div class="juct_part">
+						<div class="price__1">
+							<p>269 ₽</p>
+							<p class="price__1_1">219 ₽ </p>
+						</div>
+						<a href="#">
+							<div class="button_price"></div>
+						</a>
+					</div>
+				</li>
+
+
+			</ul>
+		</div>
+
+
+
+
+		<div class="color__block">
+
+			<li class="cart__top">
+
+				<p>Акции</p><img src="./assets/ill roll 3.svg" alt="" class="roll1">
+			</li>
+			<ul class="color__clide">
+				<li>
+					<p></p><img src="./assets/back1.png" alt="">
+				</li>
+				<li>
+					<p></p><img src="./assets/2.svg" alt="">
+				</li>
+				<li>
+					<p> </p><img src="./assets/3.svg" alt="">
+				</li>
+			</ul>
+		</div>
+
+
+
+
+		<section class="categories">
+			<li class="cart__top">
+
+				<p>Категории</p><img src="./assets/ill roll 4.svg" alt="" class="roll1">
+			</li>
+			<div class="categories__list">
+				<ul>
+				</ul>
+			</div>
+
+			<div class="bottom__category">
+
+				<ul class="top_part4">
+
+					<li class="part_top_1">
+						<div class="lict_top"></div>
+						<div class="col__one"></div>
+						<div class="title__top_1">
+							<p>200 грамм * 130 Ккал</p>
+							<h3>Ролл "Филадельфия"</h3>
+							<h4>Лосось, сыр "Филадельфия", огурец, авокадо </h4>
+						</div>
+
+						<div class="juct_part">
+							<div class="price__1">
+								<p>269 ₽</p>
+								<p class="price__1_1">219 ₽ </p>
+							</div>
+							<a href="#">
+								<div class="button_price"></div>
+							</a>
+						</div>
+					</li>
+					<li class="part_top_1">
+						<div class="lict_top"></div>
+						<div class="col__one"></div>
+						<div class="title__top_1">
+							<p>200 грамм * 130 Ккал</p>
+							<h3>Ролл "Филадельфия"</h3>
+							<h4>Лосось, сыр "Филадельфия", огурец, авокадо </h4>
+						</div>
+
+						<div class="juct_part">
+							<div class="price__1">
+								<p>269 ₽</p>
+								<p class="price__1_1">219 ₽ </p>
+							</div>
+							<a href="#">
+								<div class="button_price"></div>
+							</a>
+						</div>
+					</li>
+					<li class="part_top_1">
+						<div class="lict_top"></div>
+						<div class="col__one"></div>
+						<div class="title__top_1">
+							<p>200 грамм * 130 Ккал</p>
+							<h3>Ролл "Филадельфия"</h3>
+							<h4>Лосось, сыр "Филадельфия", огурец, авокадо </h4>
+						</div>
+
+						<div class="juct_part">
+							<div class="price__1">
+								<p>269 ₽</p>
+								<p class="price__1_1">219 ₽ </p>
+							</div>
+							<a href="#">
+								<div class="button_price"></div>
+							</a>
+						</div>
+					</li>
+
+
+				</ul>
+				<ul class="top_part4">
+
+					<li class="part_top_1">
+						<div class="lict_top"></div>
+						<div class="col__one"></div>
+						<div class="title__top_1">
+							<p>200 грамм * 130 Ккал</p>
+							<h3>Ролл "Филадельфия"</h3>
+							<h4>Лосось, сыр "Филадельфия", огурец, авокадо </h4>
+						</div>
+
+						<div class="juct_part">
+							<div class="price__1">
+								<p>269 ₽</p>
+								<p class="price__1_1">219 ₽ </p>
+							</div>
+							<a href="#">
+								<div class="button_price"></div>
+							</a>
+						</div>
+					</li>
+					<li class="part_top_1">
+						<div class="lict_top"></div>
+						<div class="col__one"></div>
+						<div class="title__top_1">
+							<p>200 грамм * 130 Ккал</p>
+							<h3>Ролл "Филадельфия"</h3>
+							<h4>Лосось, сыр "Филадельфия", огурец, авокадо </h4>
+						</div>
+
+						<div class="juct_part">
+							<div class="price__1">
+								<p>269 ₽</p>
+								<p class="price__1_1">219 ₽ </p>
+							</div>
+							<a href="#">
+								<div class="button_price"></div>
+							</a>
+						</div>
+					</li>
+					<li class="part_top_1">
+						<div class="lict_top"></div>
+						<div class="col__one"></div>
+						<div class="title__top_1">
+							<p>200 грамм * 130 Ккал</p>
+							<h3>Ролл "Филадельфия"</h3>
+							<h4>Лосось, сыр "Филадельфия", огурец, авокадо </h4>
+						</div>
+
+						<div class="juct_part">
+							<div class="price__1">
+								<p>269 ₽</p>
+								<p class="price__1_1">219 ₽ </p>
+							</div>
+							<a href="#">
+								<div class="button_price"></div>
+							</a>
+						</div>
+					</li>
+
+
+				</ul>
+				<div class="pogination">
+					<ul class="pogination__bootom">
+						<li><img src="./assets/arr1.svg" alt=""></li>
+
+						<li>
+							<p>1</p>
+						</li>
+						<li>
+							<p>2 </p> <img src="./assets/elipse.svg" alt="" class="img__bottom">
+						</li>
+						<li>
+							<p> 3</p>
+						</li>
+						<li>
+							<p> 4</p>
+						</li>
+
+						<li><img src="./assets/arr 2.svg" alt=""></li>
+					</ul>
+
+
+					<ul class="poginotion__left">
+						<li>
+							<p>Перейти в каталог</p>
+						</li>
+						<li><img src="./assets/arr 2.svg" alt=""></li>
+					</ul>
+
+				</div>
+			</div>
+
+
+
+
+
+
+		</section>
+
+
+
+
+
+		<section class="about__uc">
+			<div class="about__cite">
+				<div class="about__titile">
+					<div class="about__icon">
+						<h1>О компании</h1><img src="./assets/Group.svg" alt="">
+					</div>
+					<p>Вкусная доставка Рикша подарит Вам незабываемые вкусовые впечатления, украсит любой ваш стол и не
+						заставит себя долго ждать. С нами вы сможете забыть  о готовке, легко сделать приятное родным и
+						близким, устроить вкусный праздник или расслабится в кругу друзей. Все блюда готовятся
+						исключительно из свежих продуктов  и по оригинальным рецептам Нашего шеф-повара.
+						Любая позиция из Нашего Меню может оказаться у Вас  на столе максимум через 60 минут!
+
+						У вас есть возможность сделать предварительный заказ на определенный день  и время. </p>
+
+				</div>
+				<div class="about__paint"><img src="./assets/big.png" alt=""> <img src="./assets/big2.png" alt=""
+						class="big__2"></div>
+			</div>
+
+
+
+
+			<div class="section__head">
+				<div class="section__inct">
+					<li class="section__title">
+						<p>А вы уже подписались на наш Instagram?</p>
+					</li>
+					<li><img src="./assets/button.svg" alt=""></li>
+				</div>
+				<div class="section1">
+					<div>
+						<div class="section__1__2">
+							<div><img src="./assets/div1.png" alt=""></div>
+							<div><img src="./assets/div2.png" alt=""></div>
+						</div>
+						<div><img src="./assets/div3.png" alt=""></div>
+					</div>
+					<div class="section__1">
+						<div class="section__1__3">
+							<div><img src="./assets/dvi4.png" alt=""></div>
+							<div><img src="./assets/dvi5.png" alt=""></div>
+						</div>
+						<div><img src="./assets/div6.png" alt=""></div>
+					</div>
+				</div>
+			</div>
+
+
+
+
+
+
+
+
+
+
+
+
+		</section>
+
+
+
+
+
+	</main>
+
+	<footer>
+
+		<div class="conteyner__foot">
+			<ul>
+				<li class="border__foot"><img src="./assets/logo.svg" alt="" class="logo__foot"></li>
+				<div class="foot__title">
+					<li class="about__foot">
+						<p>О нас</p>
+						<p>Доставка и оплата</p>
+						<p>Контакты</p>
+					</li>
+					<li>
+						icon
+						icon
+						icon
+					</li>
+				</div>
+				<div class="foot__category">
+					<li>
+						<p>Пицца</p>
+						<p>Суши</p>
+						<p>Роллы</p>
+						<p>Сеты</p>
+						<p>Wok</p>
+					</li>
+
+					<li>
+						<p>Супы</p>
+						<p>Салаты</p>
+						<p>Десерты</p>
+						<p>Напитки</p>
+						<p>Акции</p>
+					</li>
+				</div>
+				<div class="foot__contackt">
+					<h1>+7 (495) 617-14-24</h1>
+					<h3>c 10:00 до 23:00</h3>
+					<p>© Рикша. Все права защищены.</p>
+				</div>
+			</ul>
+		</div>
+
+
+
+	</footer>
+	<script src="./js/index.js"></script>
+</body>
+
 </html>
