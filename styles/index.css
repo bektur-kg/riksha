@@ -287,108 +287,115 @@ header {
 	z-index: 20;
 }
 
-.top_part{
+.top_part {
 	max-width: 1224px;
 	margin: 0 auto;
 }
-.cart__top{
+
+.cart__top {
 	display: flex;
 	width: 480px;
 	justify-content: space-between;
 
 	position: relative;
 }
-.cart__top 	.roll{
+
+.cart__top .roll {
 	position: absolute;
-width: 64px;
-height: 64px;
-left: -100px;
-top: -50px;
+	width: 64px;
+	height: 64px;
+	left: -100px;
+	top: -50px;
 
 }
-.cart__top h5{
-	
 
-width: 194px;
-height: 60px;
+.cart__top h5 {
 
 
-font-family: 'TT Interfaces';
-font-style: normal;
-font-weight: 500;
-font-size: 48px;
-line-height: 60px;
-/* identical to box height */
+	width: 194px;
+	height: 60px;
 
 
-/* grey text */
+	font-family: 'TT Interfaces';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 48px;
+	line-height: 60px;
+	/* identical to box height */
 
-color: #B7B7B7;
+
+	/* grey text */
+
+	color: #B7B7B7;
 }
-.cart__top p{
+
+.cart__top p {
 	width: 286px;
 	height: 60px;
-	
-	
+
+
 	font-family: 'TT Interfaces';
 	font-style: normal;
 	font-weight: 600;
 	font-size: 48px;
 	line-height: 60px;
 	/* identical to box height */
-	
-	
+
+
 	/* black */
-	
+
 	color: #1B1B1B;
-	
-	
+
+
 }
 
-.advantages{
+.advantages {
 	width: 100vw;
 	height: 390px;
 	position: relative;
 	margin-bottom: 160px;
 }
-.adnavtages__list{
+
+.adnavtages__list {
 	display: flex;
 	justify-content: space-between;
 
 	width: 1240px;
-height: 181px;
-		margin: 0;
-		margin-top: 150px;
-		margin-bottom: 150px;
-		position: absolute;
-		top: 50%;
-		left: 50%;
-		margin-right: -50%;
-		transform: translate(-50%, -50%) 
+	height: 181px;
+	margin: 0;
+	margin-top: 150px;
+	margin-bottom: 150px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-right: -50%;
+	transform: translate(-50%, -50%)
 }
 
-.block_part_2{
+.block_part_2 {
 	height: 181px;
 	width: 180px;
-	
+
 }
-.title_2{
+
+.title_2 {
 	position: relative;
-	
+
 	height: 181px;
 	width: 180px;
 	text-align: center;
-	
+
 
 }
-.title_2 img{
+
+.title_2 img {
 
 	width: 100%;
 	margin-bottom: 50%;
 }
 
 
-.icon_2{
+.icon_2 {
 	top: 35%;
 	position: absolute;
 	height: 89px;
@@ -396,111 +403,117 @@ height: 181px;
 	background: #E07153;
 	border-radius: 50%;
 	left: 25%
-	
 
 
 }
-.icon_2 img{
+
+.icon_2 img {
 	position: absolute;
 	left: 60%;
 	height: 47px;
 	width: 47px;
 
 }
-.info_2{
+
+.info_2 {
 	position: absolute;
-width: 132px;
-height: 132px;
-right: 20px;
+	width: 132px;
+	height: 132px;
+	right: 20px;
 
-background: #E07153;
-opacity: 0.8;
-/* dark red */
+	background: #E07153;
+	opacity: 0.8;
+	/* dark red */
 
-border: 1px solid #C95C3F;
-border-radius: 50%;  		
+	border: 1px solid #C95C3F;
+	border-radius: 50%;
 }
 
 
-
-.part_top_1{
+.part_top_1 {
 	width: 392px;
-height: 479px;
-background-color: #fff;
-padding: 15px;
+	height: 479px;
+	background-color: #fff;
+	padding: 15px;
 
 }
-.col__one{
+
+.col__one {
 	position: relative;
 	width: 392px;
-height: 256px;
-background: url(../assets/col__1.png) center/cover;
+	height: 256px;
+	background: url(../assets/col__1.png) center/cover;
 
 }
-.lict_top{
+
+.lict_top {
 	background: url(../assets/list.png);
 	width: 51px;
-height: 114px;
-position: absolute;
+	height: 114px;
+	position: absolute;
 }
 
-.title__top_1{
-	
+.title__top_1 {
+
 	margin-bottom: 5rem;
 }
-.title__top_1 p{
-	
 
-font-family: 'TT Interfaces';
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 17px;
-display: flex;
+.title__top_1 p {
 
 
-/* grey text */
+	font-family: 'TT Interfaces';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 17px;
+	display: flex;
 
-color: #B7B7B7;
+
+	/* grey text */
+
+	color: #B7B7B7;
 }
-.title_top_1 h3{
+
+.title_top_1 h3 {
 	width: 344px;
-height: 30px;
-font-family: 'TT Interfaces';
-font-style: normal;
-font-weight: 600;
-font-size: 24px;
-line-height: 30px;
-/* identical to box height */
+	height: 30px;
+	font-family: 'TT Interfaces';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 24px;
+	line-height: 30px;
+	/* identical to box height */
 
-display: flex;
-align-items: center;
+	display: flex;
+	align-items: center;
 
-/* black */
+	/* black */
 
-color: #1B1B1B;
-
-}
-.title_top_1 h4{
-	
-font-family: 'TT Interfaces';
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 17px;
-
-/* black */
-
-color: #1B1B1B;
+	color: #1B1B1B;
 
 }
-.juct_part{
-	
+
+.title_top_1 h4 {
+
+	font-family: 'TT Interfaces';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 17px;
+
+	/* black */
+
+	color: #1B1B1B;
+
+}
+
+.juct_part {
+
 	display: flex;
 	justify-content: space-between;
 }
 
-.price__1  :first-child{
+.price__1 :first-child {
 	/* font-family: 'TT Interfaces'; */
 	font-style: normal;
 	font-weight: 400;
@@ -509,42 +522,44 @@ color: #1B1B1B;
 	display: flex;
 	align-items: center;
 	text-decoration-line: line-through;
-	
+
 	/* grey text */
 	width: 36px;
-height: 17px;
+	height: 17px;
 	color: #B7B7B7;
 }
-.price__1_1{
-	
 
-font-style: normal;
-font-weight: 700;
-font-size: 32px;
-line-height: 40px;
-display: flex;
-align-items: center;
+.price__1_1 {
 
-/* black */
 
-color: #1B1B1B;
-width: 80px;
-height: 40px;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 32px;
+	line-height: 40px;
+	display: flex;
+	align-items: center;
+
+	/* black */
+
+	color: #1B1B1B;
+	width: 80px;
+	height: 40px;
 }
 
-.button_price{
+.button_price {
 	width: 180px;
-height: 44px;
+	height: 44px;
 	background: url(../assets/buutn.png);
 }
 
-.top_part3{
+.top_part3 {
 	max-width: 1224px;
 	justify-content: space-between;
 	display: flex;
 	margin: 0 auto;
 }
-.top_part4{
+
+.top_part4 {
 	max-width: 1224px;
 	justify-content: space-between;
 	display: flex;
@@ -552,33 +567,36 @@ height: 44px;
 
 
 }
-.title_part{
+
+.title_part {
 	width: 286px;
-height: 60px;
-font-family: 'TT Interfaces';
-font-style: normal;
-font-weight: 600;
-font-size: 48px;
-line-height: 60px;
-/* identical to box height */
+	height: 60px;
+	font-family: 'TT Interfaces';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 48px;
+	line-height: 60px;
+	/* identical to box height */
 
 
-/* black */
-
+	/* black */
 
 
 }
+
 /* Categoires */
 
 section.categories {
 	max-width: 1224px;
 	margin: 8rem auto 0 auto;
 }
+
 .categories .cart__top {
 	justify-content: flex-start;
 	width: 10px;
 	margin-bottom: 30px;
 }
+
 .categories__list {
 	background: #fff;
 	padding: 18px 12px;
@@ -622,14 +640,15 @@ section.categories {
 	font-weight: 600;
 }
 
-.conteyner__advantages{
+.conteyner__advantages {
 	width: 100vw;
-height: 760px;
-padding-top: 100px;
-padding-bottom: 100px;
-background-color: #F5F9FA;
+	height: 760px;
+	padding-top: 100px;
+	padding-bottom: 100px;
+	background-color: #F5F9FA;
 }
-.conteyner__advantages .cart__top{
+
+.conteyner__advantages .cart__top {
 	max-width: 1224px;
 	margin: 0 auto;
 	width: 1224px;
@@ -638,74 +657,80 @@ background-color: #F5F9FA;
 }
 
 
-
-
-.color__block{
+.color__block {
 	max-width: 1224px;
-margin: 0 auto;
+	margin: 0 auto;
 	height: 385px;
 	margin-top: 80px;
-	
-	
+
+
 }
-.color__block .cart__top{
+
+.color__block .cart__top {
 	justify-content: flex-start;
 	width: 0px;
 	margin-bottom: 40px;
 }
-.color__clide li{
+
+.color__clide li {
 	width: 392px;
 }
-.color__clide li img{
+
+.color__clide li img {
 	width: 100%;
 }
-.color__clide{
+
+.color__clide {
 	display: flex;
 	justify-content: space-between;
 
 }
 
-.bottom__category .top_part4{
+.bottom__category .top_part4 {
 	margin-top: 30px;
 	margin-bottom: 30px;
 }
-.bottom__category .pogination__bootom{
+
+.bottom__category .pogination__bootom {
 	width: 283px;
 
 
-display: flex;
-justify-content: space-between;
-position: relative;
+	display: flex;
+	justify-content: space-between;
+	position: relative;
 
 
-font-family: 'TT Interfaces';
-font-style: normal;
-font-weight: 400;
-font-size: 20px;
-line-height: 25px;
-/* identical to box height */
+	font-family: 'TT Interfaces';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 25px;
+	/* identical to box height */
 
 
-/* black */
+	/* black */
 
-color: #1B1B1B;
+	color: #1B1B1B;
 }
-.img__bottom{
+
+.img__bottom {
 	position: absolute;
 	left: 32.5%;
 	top: -25%;
 }
-.pogination__bootom li p{
+
+.pogination__bootom li p {
 	display: block;
-    margin-top: 5px;
-	
-    
-		
+	margin-top: 5px;
+
+
 }
-.poginotion__left{
+
+.poginotion__left {
 	display: flex;
 }
-.poginotion__left li p{
+
+.poginotion__left li p {
 	width: 210px;
 	height: 30px;
 	font-family: 'TT Interfaces';
@@ -714,173 +739,197 @@ color: #1B1B1B;
 	font-size: 24px;
 	line-height: 30px;
 	/* identical to box height */
-	
+
 	display: flex;
 	align-items: center;
-	
+
 	/* dark red */
-	
+
 	color: #C95C3F;
-	
+
 }
-.pogination{
+
+.pogination {
 	margin-top: 40px;
 	justify-content: space-between;
 	display: flex;
 }
 
-.about__icon{
+.about__uc{
+	max-width: 1240px;
+	margin: 0 auto;
+}
+
+.about__icon {
 	display: flex;
 	margin-bottom: 40px;
 }
 
 
-.about__cite{
+.about__cite {
 	display: flex;
-	max-width: 1224px;
-	margin: 0 auto;
+	width: 100%;
 	justify-content: space-between;
 	margin-top: 137px;
 }
-.about__titile{
-	margin-top: 15%;
-	width: 553px;
-height: 368px;
 
-font-family: 'TT Interfaces';
-font-style: normal;
-font-weight: 300;
-font-size: 20px;
-line-height: 160%;
-/* or 32px */
-
-
-/* black */
-
-color: #1B1B1B;
-
-}
-.about__titile h1{
-	width: 274px;
-height: 60px;
-
-font-family: 'TT Interfaces';
-font-style: normal;
-font-weight: 600;
-font-size: 48px;
-line-height: 60px;
-/* identical to box height */
-
-
-/* black */
-
-color: #1B1B1B;
-}
-.about__paint{
+.about__titile {
 	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	width: 45%;
+	font-family: 'TT Interfaces';
+	font-style: normal;
+	font-weight: 300;
+	font-size: 20px;
+	line-height: 160%;
+	/* or 32px */
+
+
+	/* black */
+
+	color: #1B1B1B;
+
+}
+
+.about__titile h1 {
+	height: 60px;
+	margin-right: 10px;
+	font-family: 'TT Interfaces';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 48px;
+	line-height: 60px;
+	/* identical to box height */
+
+
+	/* black */
+
+	color: #1B1B1B;
+}
+
+.about__paint {
+	width: 45%;
 	position: relative;
-}
-.big__2{
-	position: absolute ;
-	left: 100%;
-	top: 25%;
-	
+	height: 640px;
 }
 
+.about__paint img.main{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.big__2 {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-40%);
+	right: -45%;
+	z-index: -1;
+}
 
 
-
-
-
-.section1{
+.section1 {
 	display: flex;
 	max-width: 1224px;
 	margin: 0 auto;
-	
 }
-.section__1__2{
+
+.section__1__2 {
 	display: flex;
 }
-.section__1{
+
+.section__1 {
 	display: flex;
 }
-.section1 div div div{
+
+.section1 div div div {
 	margin: 6px;
 }
-.section__inct{
+
+.section__inct {
 	max-width: 1224px;
 	margin: 0 auto;
 	display: flex;
 	justify-content: space-between;
 }
-.section__title{
-	
-width: 468px;
-height: 100px;
+
+.section__title {
+
+	width: 468px;
+	height: 100px;
 
 
-font-family: 'TT Interfaces';
-font-style: normal;
-font-weight: 600;
-font-size: 40px;
-line-height: 50px;
+	font-family: 'TT Interfaces';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 40px;
+	line-height: 50px;
 
-/* black */
+	/* black */
 
-color: #1B1B1B;
+	color: #1B1B1B;
 }
 
-.section__head{
+.section__head {
 	margin-top: 250px;
 	margin-bottom: 150px;
 }
 
 
-footer{
-	width: 100vw ;
-height: 143px;
-display: flex;
-/* black */
+footer {
+	width: 100vw;
+	height: 143px;
+	display: flex;
+	/* black */
 
-background: #1B1B1B;
+	background: #1B1B1B;
 }
-.conteyner__foot{
+
+.conteyner__foot {
 	max-width: 1224px;
 	margin: 0 auto;
 }
-.conteyner__foot ul{
-display: flex;
-color: #fff;
-justify-content: space-between;
-padding-top: 32px;
-padding-bottom:19px ;
-width: 1224px;
-position: relative;
+
+.conteyner__foot ul {
+	display: flex;
+	color: #fff;
+	justify-content: space-between;
+	padding-top: 32px;
+	padding-bottom: 19px;
+	width: 1224px;
+	position: relative;
 
 }
-.border__foot{
+
+.border__foot {
 	width: 112px;
 }
-.logo__foot{
+
+.logo__foot {
 	position: absolute;
 	top: -2rem;
 }
-.about__foot{
+
+.about__foot {
 
 	display: flex;
 	justify-content: space-between;
-	
+
 }
-.about__foot p{
+
+.about__foot p {
 	margin-right: 25px;
 	margin-bottom: 15px;
 }
-.foot__category{
+
+.foot__category {
 	width: 400px;
-	
+
 
 }
-.foot__category li{
+
+.foot__category li {
 	width: 400px;
 	justify-content: space-between;
 	display: flex;
