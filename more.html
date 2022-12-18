@@ -1,34 +1,310 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="./styles/more.css">
-    <title>Document</title>
-</head>
-<body>
+	<head>
+		<meta charset="UTF-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+		/>
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+		<link rel="stylesheet" href="./styles/more.css" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600&display=swap"
+			rel="stylesheet"
+		/>
+		<script
+			src="https://kit.fontawesome.com/5669f92d5b.js"
+			crossorigin="anonymous"
+		></script>
+		<title>Riksha</title>
+	</head>
+	<body>
+		<header class="header">
+			<section>
+				<div class="container">
+					<div class="header__top">
+						<div class="header__logo">
+							<img src="./assets/logo.png" alt="logo" />
+						</div>
+						<div class="header__navigation">
+							<nav>
+								<ul>
+									<li><a href="">О нас</a></li>
+									<li><a href="">Доставка</a></li>
+									<li><a href="">Контакты</a></li>
+									<li><a href="">Бонусы</a></li>
+									<li><a href="">Вакансии</a></li>
+								</ul>
+							</nav>
+						</div>
 
-<!--<iframe-->
-<!--        src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d9473.875048168715!2d74.57783205634787!3d42.86167011677091!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2skg!4v1671305294977!5m2!1sru!2skg"-->
-<!--        width="600"-->
-<!--        height="450"-->
-<!--        style="border:0;"-->
-<!--        allowfullscreen=""-->
-<!--        loading="lazy"-->
-<!--        referrerpolicy="no-referrer-when-downgrade"-->
-<!--&gt;</iframe>-->
+						<div class="header__contacts">
+							<div class="contacts__number">
+								<i class="fa-solid fa-phone"></i>
+								<span>+7 (495) 617-14-24</span>
+							</div>
+							<div class="contacts__time">
+								<span>c 10:00 до 23:00</span>
+							</div>
+						</div>
 
-<ul>
-    <li>;laksf</li>
+						<div class="header__cart_profile">
+							<div class="header__cart">
+								<span class="cart__balance">0 ₽</span>
+								<i class="fa-sharp fa-solid fa-bag-shopping"></i>
+							</div>
+							<div class="header__profile">
+								<button>
+									<i class="fa-solid fa-user"></i>
+								</button>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="header__bottom">
+					<div class="header__container">
+						<ul>
+							<li>
+								<img src="./assets/pizza.png" alt="icon" />
+								<span>Пицца</span>
+							</li>
+							<li>
+								<img src="./assets/sushi.png" alt="icon" />
+								<span>Sushi</span>
+							</li>
+							<li>
+								<img src="./assets/rolle.png" alt="icon" />
+								<span>Роллы</span>
+							</li>
+							<li>
+								<img src="./assets/set.png" alt="icon" />
+								<span>Сеты</span>
+							</li>
+							<li>
+								<img src="./assets/wok.png" alt="icon" />
+								<span>Wok</span>
+							</li>
+							<li>
+								<img src="./assets/soup.png" alt="icon" />
+								<span>Супы</span>
+							</li>
+							<li>
+								<img src="./assets/salads.png" alt="icon" />
+								<span>Салат</span>
+							</li>
+							<li>
+								<img src="./assets/dessert.png" alt="icon" />
+								<span>Дессерты</span>
+							</li>
+							<li>
+								<img src="./assets/beverages.png" alt="icon" />
+								<span>Напитки</span>
+							</li>
+							<li>
+								<img src="./assets/sale.png" alt="icon" />
+								<span>Акции</span>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</section>
+		</header>
 
-    <li>;laksf</li>
-</ul>
+		<main class="main__container">
+			<h3>Оформление заказа</h3>
+			<section class="main__inner">
+				<div class="main__list">
+					<ul>
+						<li>
+							<div class="item__product__data">
+								<div class="product__image">
+									<img src="./assets/productImg1.png" alt="" />
+								</div>
+								<div class="product__title">
+									<h4>Пицца “Рикша”</h4>
+									<span class="product__size_acitive">30 см</span>
+									<span class="product__size_acitive">●</span>
+									<span class="product__size_disabled">50 см</span>
+								</div>
+							</div>
 
-<textarea name="" placeholder="a;sldkfa;j">
+							<div class="item__product__prices">
+								<div class="product__counter">
+									<span class="counter__minus">-</span>
+									<span class="counter__number">1</span>
+									<span class="counter__plus">+</span>
+								</div>
 
-</textarea>
+								<span class="product__price">510 ₽</span>
+								<button class="product__bin">
+									<img src="./assets/binIcon.svg" alt="" />
+								</button>
+							</div>
+						</li>
+						<li>
+							<div class="item__product__data">
+								<div class="product__image">
+									<img src="./assets/productImg1.png" alt="" />
+								</div>
+								<div class="product__title">
+									<h4>Пицца “Рикша”</h4>
+									<span class="product__size_acitive">30 см</span>
+									<span class="product__size_disabled">50 см</span>
+								</div>
+							</div>
 
-</body>
+							<div class="item__product__prices">
+								<div class="product__counter">
+									<span class="counter__minus">-</span>
+									<span class="counter__number">1</span>
+									<span class="counter__plus">+</span>
+								</div>
+
+								<span class="product__price">500P</span>
+								<button class="product__bin">
+									<img src="./assets/binIcon.svg" alt="" />
+								</button>
+							</div>
+						</li>
+					</ul>
+				</div>
+
+				<div class="main__form">
+					<div class="form__header">
+						<div class="form__heading">
+							<img src="./assets/list1.svg" alt="list-style" />
+							<h4>Контактные данные</h4>
+						</div>
+						<div class="form__contacts">
+							<input type="text" placeholder="Ваше Имя" />
+							<input type="tel" placeholder="Телефон" />
+						</div>
+					</div>
+
+					<div class="form__main">
+						<section class="form__delivery">
+							<div class="heading">
+								<img src="./assets/list2.svg" alt="item number" />
+								<h4>Параметры доставки</h4>
+							</div>
+							<div class="form__delivery_type">
+								<label>
+									<input type="radio" name="delivery" />
+									<span>Ближайшее время</span>
+								</label>
+								<label>
+									<input type="radio" name="delivery" />
+									<span>Самовывоз</span>
+								</label>
+								<label>
+									<input type="radio" name="delivery" />
+									<span>На дату / время</span>
+								</label>
+							</div>
+							<div class="form__address_top">
+								<input type="text" placeholder="Улица" />
+								<input type="text" placeholder="Дом" />
+							</div>
+							<div class="form__address_bottom">
+								<input type="text" placeholder="Квартира" />
+								<input type="text" placeholder="Подьезд/Этаж/Домофон" />
+							</div>
+							<div class="form__map">
+								<iframe
+									src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12130.073411312022!2d72.7924497!3d40.5301358!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38bdaf01d99b9087%3A0x96c960d291394ec2!2sGlobus!5e0!3m2!1sru!2skg!4v1671340902333!5m2!1sru!2skg"
+									width="100%"
+									height="200"
+									style="border: 0"
+									allowfullscreen=""
+									loading="lazy"
+									referrerpolicy="no-referrer-when-downgrade"
+								></iframe>
+							</div>
+
+							<div class="form__deliver_time">
+								<img src="./assets/truckIcon.svg" alt="truck" />
+								<span>Доставим за 40 мин</span>
+							</div>
+						</section>
+
+						<section class="payvemnt__type">
+							<div class="heading">
+								<img src="./assets/list3.svg" alt="item number" />
+								<h4>Параметры оплаты</h4>
+							</div>
+							<div class="form__payvment_type">
+								<label>
+									<input type="radio" name="payvment" />
+									<span>Наличные</span>
+								</label>
+								<label>
+									<input type="radio" name="payvment" />
+									<span>Онлайн оплата</span>
+								</label>
+							</div>
+
+							<div class="form__payvment_total">
+								<p>Подготовить сдачу c :</p>
+								<div class="payvment__price">
+									<input type="number" placeholder="Введите сумму" />
+									<label>
+										<input type="checkbox" />
+										<span>Без сдачи</span>
+									</label>
+								</div>
+							</div>
+						</section>
+
+						<div class="form__footer">
+							<div class="heading">
+								<img src="./assets/list3.svg" alt="item number" />
+								<h4>Пocktlbq ifu</h4>
+							</div>
+
+							<div class="number__person">
+								<div class="person__value">
+									<span>Количество персон</span>
+									<div class="product__counter">
+										<span class="counter__minus">-</span>
+										<span class="counter__number">1</span>
+										<span class="counter__plus">+</span>
+									</div>
+								</div>
+								<div class="person__value">
+									<span>Учебные палочки</span>
+									<div class="product__counter">
+										<span class="counter__minus">-</span>
+										<span class="counter__number">1</span>
+										<span class="counter__plus">+</span>
+									</div>
+								</div>
+								<span class="person__free">бесплано</span>
+							</div>
+
+							<ul class="last__prise">
+								<li><span>Сумма саказа</span><span>729p</span></li>
+								<li><span>стоимость заказа</span><span>0p</span></li>
+							</ul>
+
+							<div class="promo__foot">
+								<div class="promo__box"><span>promo</span><span><a href="#">применить</a></span></div>
+							</div>
+
+							<div class="last__foot">
+								<div class="fuck"><span>Сумма саказа</span><span>729p</span></div>
+								<textarea name="rewui"  ></textarea>
+								<button><img src="./assets/last__button.svg" alt=""></button>
+								
+
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+
+		<footer></footer>
+	</body>
 </html>
